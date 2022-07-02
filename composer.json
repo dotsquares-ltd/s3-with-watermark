@@ -1,5 +1,5 @@
 {
-    "name": "dotsquares/s3-with-watermark",
+    "name": "jugalkishoredots/s3-with-watermark",
     "description": "This package helps to storage images with water mark",
     "require": {
         "league/flysystem-aws-s3-v3": "^3.0",
