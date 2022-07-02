@@ -1,0 +1,19 @@
+{
+    "name": "dotsquares/s3-with-watermark",
+    "description": "This package helps to storage images with water mark",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "spatie/laravel-ignition": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotsquares\\S3WithWatermark\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jugal Kishore",
+            "email": "jugal.kishore@dotsquares.com"
+        }
+    ]
+}
