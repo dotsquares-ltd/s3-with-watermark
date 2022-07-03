@@ -11,6 +11,8 @@
             "Dotsquares\\S3WithWatermark\\": "src/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Jugal Kishore",
