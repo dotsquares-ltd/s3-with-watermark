@@ -28,7 +28,7 @@ To install the plugin, follow these instructions.
 ```php
     $media_path = 'files/test/';
     $watermark = 'images/logo.png';
-    $data = S3WithWatermark::store($request->file, $media_path, $watermark);
+    $data = S3WithWatermarkController::store($request->file, $media_path, $watermark);
 ```
 
 
