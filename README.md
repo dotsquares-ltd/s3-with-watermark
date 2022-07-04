@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 ### Environment Variables
 
 #### AWS Environment Variables
-The `laravel-s3-tools` package makes use of the existing AWS/S3 configuration within Laravel, so if you've already configured your app to use S3, you are good to go! Of course, provided you are using the most recent AWS/S3 config statements (these were changed not too long ago in Laravel). To make sure, check your `.env` file for the following:
+The package makes use of the existing AWS/S3 configuration within Laravel, so if you've already configured your app to use S3, you are good to go! Of course, provided you are using the most recent AWS/S3 config statements (these were changed not too long ago in Laravel). To make sure, check your `.env` file for the following:
 
 ```
 AWS_ACCESS_KEY_ID=<YOUR KEY>
