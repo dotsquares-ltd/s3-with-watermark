@@ -20,6 +20,10 @@ To install the plugin, follow these instructions.
 
        composer require jugalkishoredots/s3-with-watermark
 
+2. Then use this namespace in your controller:
+
+       use Dotsquares\S3WithWatermark\S3WithWatermarkController;
+
 
 ### Environment Variables
 
