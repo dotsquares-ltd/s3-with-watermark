@@ -24,6 +24,13 @@ To install the plugin, follow these instructions.
 
        use Dotsquares\S3WithWatermark\S3WithWatermarkController;
 
+3. Use this code example: 
+```php
+    $media_path = 'files/test/';
+    $watermark = 'images/logo.png';
+    $data = S3WithWatermark::store($request->file, $media_path, $watermark);
+```
+
 
 ## Environment Variables
 
