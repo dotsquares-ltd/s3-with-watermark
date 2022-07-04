@@ -10,7 +10,7 @@ use Image;
 class S3WithWatermarkController extends Controller
 {
     //
-    public function store($file, $media_path, $watermark)
+    static function store($file, $media_path, $watermark)
     {
         $imageName = time() . '_' . $file->getClientOriginalName();
 
