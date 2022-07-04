@@ -6,7 +6,7 @@ This package helps to storage images with water mark
 
 ## Requirements
 
-This plugin requires Laravel 9
+This package requires Laravel 9
 
 ## Installation
 
