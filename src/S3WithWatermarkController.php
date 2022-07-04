@@ -5,7 +5,7 @@ namespace Dotsquares\S3WithWatermark;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use Image;
+use Intervention\Image\Facades\Image;
 
 class S3WithWatermarkController extends Controller
 {
