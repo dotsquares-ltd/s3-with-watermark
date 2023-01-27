@@ -27,7 +27,7 @@ To install the plugin, follow these instructions.
 4. Use this code example: 
 ```php
     $media_path = 'files/test/';
-    $watermark = 'images/logo.png'; // if you want to store without wanter mark replace with  (null) value.
+    $watermark = 'images/logo.png'; // if you want to store without WaterMark replace with (null) value.
     $data = S3WithWatermarkController::store($request->file, $media_path, $watermark);
 ```
 
