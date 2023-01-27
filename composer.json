@@ -1,7 +1,7 @@
 {
     "name": "jugalkishoredots/s3-with-watermark",
     "description": "This package helps to storage images with water mark",
-    "license": "LGPL-3.0",
+    "license": "MIT",
     "version": "1.2.0",
     "require": {
         "league/flysystem-aws-s3-v3": "^3.0",
