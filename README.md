@@ -27,6 +27,11 @@ To install the plugin, follow these instructions.
 3. Use this code example: 
 ```php
     $media_path = 'files/test/';
+    $data = S3WithWatermarkController::storeFile($request->file, $media_path);
+```
+4. Use this code example for With WaterMark: 
+```php
+    $media_path = 'files/test/';
     $watermark = 'images/logo.png';
     $data = S3WithWatermarkController::store($request->file, $media_path, $watermark);
 ```
