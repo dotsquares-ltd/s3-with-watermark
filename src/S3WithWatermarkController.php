@@ -27,4 +27,10 @@ class S3WithWatermarkController extends Controller
         $path = Storage::disk('s3')->url($path);
         return $path;
     }
+    static function storeFile($file, $media_path)
+    {
+        $path = Storage::disk('s3')->put($media_path, $file);
+        $path = Storage::disk('s3')->url($path);
+        return $path;
+    }
 }
