@@ -20,16 +20,16 @@ To install the plugin, follow these instructions.
 
        composer require jugalkishoredots/s3-with-watermark
 
-2. Then use this namespace in your controller:
+3. Then use this namespace in your controller:
 
        use Dotsquares\S3WithWatermark\S3WithWatermarkController;
 
-3. Use this code example: 
+4. Use this code example for Without WaterMark: 
 ```php
     $media_path = 'files/test/';
     $data = S3WithWatermarkController::storeFile($request->file, $media_path);
 ```
-4. Use this code example for With WaterMark: 
+5. Use this code example for With WaterMark: 
 ```php
     $media_path = 'files/test/';
     $watermark = 'images/logo.png';
