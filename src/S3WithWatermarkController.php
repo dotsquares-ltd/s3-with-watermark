@@ -10,13 +10,13 @@ use Intervention\Image\Facades\Image;
 class S3WithWatermarkController extends Controller
 {
     //
-    static function store($file, $media_path, $watermark)
+    static function store($file, $media_path, $watermark=null)
     {
         if($watermark==null)
         {
             $path = Storage::disk('s3')->put($media_path, $file);
             $path = Storage::disk('s3')->url($path);
-            
+
         }else{
             $imageName = time() . '_' . $file->getClientOriginalName();
     
